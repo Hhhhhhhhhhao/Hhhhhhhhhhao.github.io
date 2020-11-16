@@ -13,7 +13,7 @@ name                     : &name "Hao Chen"
 description              : &description "personal description"
 url                      : https://hhhhhhhhhhao.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Hhhhhhhhhhao/Hhhhhhhhhhao.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Hao Chen"
   avatar           : "bio-photo.jpeg"
-  bio              : "Master Student, CMU, Deep Learning, Computer Vision"
+  bio              : "Master Student at CMU, Deep Learning, Computer Vision"
   location         : "Pittsburgh"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=tktqkhwAAAAJ&hl=en"
@@ -90,10 +90,10 @@ author:
   uri              : 
   flickr           :
   facebook         :
-  github           : "https://github.com/Hhhhhhhhhhao"
+  github           : "Hhhhhhhhhhao"
   instagram        :
-  linkedin         : "https://www.linkedin.com/in/haochen97/"
-  twitter          : "https://twitter.com/HhhaoC"
+  linkedin         : "haochen97/"
+  twitter          : "HhhaoC"
   weibo            :
 
 
@@ -161,9 +161,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -207,15 +204,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
